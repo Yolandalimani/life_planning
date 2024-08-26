@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="Life planning.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo"> <a href="lyf.html"> <span>LadyBlisss-)</span> / info@bliss.co.za</a> </div>
+            <nav>
+                <ul>
+                    <li><a href="Signin.html" class="btn light">Login</a></li>
+                    <li><a href="lifeform.html" class="btn dark">Get Started</a></li>
+                    <li><div class="toggle-btn" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></div></li>
+                </ul>
+                <div class="nav-links toggle-nav" id="navLinks">
+                    <a href="about-us.html">About</a>
+                    <a href="about-us.html#footer">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+        <form>
+            <fieldset>
+                <div class="container">
+                    <h1>Login</h1>
+                    <p>Welcome back</p>
+                
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" class="email" placeholder="Enter Email" name="email" required> <br> <br>
+            
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required> <br> <br>
+        
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label> <br>
+            
+                    <p>By creating an account you agree to our <a href="Terms Policy.pdf" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                    <div class="both">
+                        <button type="reset" class="btn dark">Reset</button>
+                        <button type="submit" class="btn dark">Login</button>
+                    </div>
+                </div>
+            </fieldset>   
+        </form>
+        <script src="lifeplanning.js"></script>
+        <script src="https://kit.fontawesome.com/575f74a980.js" crossorigin="anonymous"></script>
+    </body>
+</html>
